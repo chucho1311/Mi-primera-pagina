@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chucho</title>
+    <link rel="stylesheet" href="./componente.css">
+    <link rel="shortcut icon" href="./imagen/pato.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <h2>Menu de navegación</h2>
+        <ol>
+            <li><a href="#Botones">Botones</a></li>
+            <li><a href="#section1">section 1</a></li>
+            <li><a href="#section2">section 2</a></li>
+            <li><a href="#section3">section 3</a></li>
+            <li><a href="#contacto">contacto</a></li>
+            <li><a href="#listas">tipos de listas</a></li>
+            <li><a href="#video">Agregando audios y videos</a></li>
+        </ol>
+    </nav>
+    
+    <section id="Botones">
+    <h2>Botones</h2>
+        <!-- hacer botones -->
+    <button >send</button> <!--boton estandar-->
+    <button class="boton" >send</button> <!--boton con clase-->
+    <button class="boton boton-primary" onclick="alert('desde el boton')">send</button> <!--boton con clase y alerta-->
+    </section>
+    <hr>
+
+    <br><br>
+    <section>
+        <h2>Hipervinculos</h2>
+        <nav>
+            <ul>
+                <!-- hipervinculo  -->
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">ir a youtube</a>
+                <br>
+                <!-- hipervinculo de HTML -->
+                <a href="/HTML/indexCurso.html">HTML sobre el curso</a>
+            </ul>
+        </nav>
+    </section>
+    <br><br>
+    
+
+     <hr> <!--el hr sirve para hacer una linea que divida el contenido -->
+
+    <section id="section1">
+        <h2>Title1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque officia, sequi blanditiis placeat sit aut excepturi numquam in ad corrupti accusantium ipsa accusamus iusto earum quia vel, id voluptate quas?</p>
+        
+    </section>
+    <hr>
+
+    <section id="section2">
+        <h2>Title2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque officia, sequi blanditiis placeat sit aut excepturi numquam in ad corrupti accusantium ipsa accusamus iusto earum quia vel, id voluptate quas?</p>
+        <!-- para poner una imagen se necesita el link y una frase -->
+        <img src="./imagen/gato.png" alt="Imagen de un gato">
+    </section>
+
+    <hr>
+
+    <section id="section3">
+        <h2>Title3</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque officia, sequi blanditiis placeat sit aut excepturi numquam in ad corrupti accusantium ipsa accusamus iusto earum quia vel, id voluptate quas?</p>
+    </section>
+
+    <hr>
+
+    <section id="contacto">
+        <h2>Links de contacto</h2>
+        <a href="mailto:carlosscristancho69@gmail.com">mi correo</a>
+        <br>
+        <a href="tel:+57 3123456789">mi telefono</a>
+        <br>
+        <a href="http://api.whatsapp.com/send?phone=3212418940&text=Hola mi perro">enviar mensaje a whatsapp</a>
+
+    </section>
+
+    <hr>
+
+    <section id="listas">
+        <h2>Tipos de Listas</h2>
+        <!-- listas ordenadas o numeradas -->
+        <h3>Listas ordenadas o numeradas</h3>
+        <ol>
+            <li>uva</li>
+            <li>manzana</li>
+            <li>pera</li>
+            <li>banano</li>
+        </ol>
+        <!-- se puede decir desde que numero empieza la lista -->
+        <h4>Se puede decir desde que numero empieza</h4>
+        <ol start="3">
+            <li>uva</li>
+            <li>manzana</li>
+            <li>pera</li>
+            <li>banano</li>
+        </ol>
+
+        <!-- se puede invertir el orden -->
+        <h4>Lista invertida</h4>
+        <ol reversed>
+            <li>uva</li>
+            <li>manzana</li>
+            <li>pera</li>
+            <li>banano</li>
+        </ol>
+
+        <!-- lista con figuras -->
+        <h4>Lista con figuras</h4>
+        <ul >
+            <li>uva</li>
+            <li>manzana</li>
+            <li>pera</li>
+            <li>banano</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="video">
+        <h2>Agregar Audios y Videos</h2>
+        <audio src="./audio/WhatsApp Ptt 2022-03-05 at 11.42.49 AM.ogg" controls></audio>
+        <br>
+        <video src="./videos/WhatsApp Video 2022-03-05 at 11.49.05 AM" controls poster="./imagen/mona.jpeg" width="300" height="300"></video>
+        <hr>
+
+         <h2>Iframe</h2>
+         <!-- sirve para poner enlaces externos de otras paginas -->
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/fWQrd6cwJ0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </section>
+
+    
+</body>
+</html>

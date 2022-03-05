@@ -1,0 +1,15 @@
+h2{
+    background-color:cornflowerblue;
+}
+
+.boton{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.boton-primary{
+    background-color: aquamarine;
+}
+
